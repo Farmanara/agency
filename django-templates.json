@@ -1,0 +1,10 @@
+{
+    "static_paths": ["static"],
+    "template_paths": ["templates"],
+    "contexts_path": "contexts",
+    "pages": [
+      {
+        "name": "Home page",
+        "contexts": ["base.json", "context.json"],
+        "template": "agency/index.html"
+      },
