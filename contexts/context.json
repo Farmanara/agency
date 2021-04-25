@@ -84,6 +84,7 @@
                 "sub_heading": "Lorem ipsum dolor sit amet consectetur.",
                 "items": [
                     {
+                        "div_class":"col-lg-4 col-sm-6 mb-4",
                         "href": "#portfolioModal1",
                         "i_class": "fas fa-plus fa-3x",
                         "img_src": "agency_template/assets/img/portfolio/01-thumbnail.jpg",
@@ -92,6 +93,7 @@
                         "sub_heading": "Illustration"
                     },
                     {
+                        "div_class":"col-lg-4 col-sm-6 mb-4",
                         "href": "#portfolioModal2",
                         "i_class": "fas fa-plus fa-3x",
                         "img_src": "agency_template/assets/img/portfolio/02-thumbnail.jpg",
@@ -100,6 +102,7 @@
                         "sub_heading": "Graphic Design"
                     },
                     {
+                        "div_class":"col-lg-4 col-sm-6 mb-4",
                         "href": "#portfolioModal3",
                         "i_class": "fas fa-plus fa-3x",
                         "img_src": "agency_template/assets/img/portfolio/03-thumbnail.jpg",
@@ -108,6 +111,7 @@
                         "sub_heading": "Identity"
                     },
                     {
+                        "div_class":"col-lg-4 col-sm-6 mb-4 mb-lg-0",
                         "href": "#portfolioModal4",
                         "i_class": "fas fa-plus fa-3x",
                         "img_src": "agency_template/assets/img/portfolio/04-thumbnail.jpg",
@@ -116,6 +120,7 @@
                         "sub_heading": "Branding"
                     },
                     {
+                        "div_class":"col-lg-4 col-sm-6 mb-4 mb-sm-0",
                         "href": "#portfolioModal5",
                         "i_class": "fas fa-plus fa-3x",
                         "img_src": "agency_template/assets/img/portfolio/05-thumbnail.jpg",
@@ -124,6 +129,7 @@
                         "sub_heading": "Website Design"
                     },
                     {
+                        "div_class":"col-lg-4 col-sm-6",
                         "href": "#portfolioModal6",
                         "i_class": "fas fa-plus fa-3x",
                         "img_src": "agency_template/assets/img/portfolio/06-thumbnail.jpg",
