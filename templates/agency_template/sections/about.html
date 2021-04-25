@@ -1,0 +1,37 @@
+<!-- About-->
+        <section class="page-section" id="about">
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="section-heading text-uppercase">{{section.heading}}</h2>
+                    <h3 class="section-subheading text-muted">{{section.sub_heading}}</h3>
+                </div>
+                <ul class="timeline">
+                    {%for item in section.content.items%}
+                    <li {%if item.inverted%} class="{{inverted}}" {%endif%}>
+                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="{%static item.img_src%}" alt="{{item.img_alt}}" /></div>
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                <h4>{{item.heading}}</h4>
+                                <h4 class="subheading">{{item.subheading}}</h4>
+                            </div>
+                            <div class="timeline-body"><p class="text-muted">{{item.description}}</p></div>
+                        </div>
+                    </li>
+                    {%endfor%}
+     
+                
+                    <li class="timeline-inverted">
+                        <div class="timeline-image">
+                            <h4>
+                                {{section.end_circle.first_line}}
+                                <br />
+                                {{section.end_circle.second_line}}
+                                <br />
+                                {{section.end_circle.third_line}}
+
+                            </h4>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>

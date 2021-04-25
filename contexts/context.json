@@ -1,0 +1,232 @@
+{
+    "head":{
+        "title":"Agency - Start Bootstrap Theme",
+        "favicon":"agency_template/assets/img/favicon.ico"
+    },
+
+    "sections":[
+        {
+            "file":"agency_template/sections/navbar.html",
+            "content":{
+                "logo":{
+                    "href":"#page-top",
+                    "img_src":"assets/img/navbar-logo.svg",
+                    "img_alt":""
+                },
+                "menu":{
+                    "text":"Menu",
+                    "i_class":"fas fa-bars ml-1"
+                },
+                "items":[
+                    {
+                        "href":"#services",
+                        "text":"Services"
+                    },
+                    {
+                        "href":"#portfolio",
+                        "text":"Portfolio"
+                    },
+                    {
+                        "href":"#about",
+                        "text":"About"
+                    },
+                    {
+                        "href":"#team",
+                        "text":"Team"
+                    },
+                    {
+                        "href":"#contact",
+                        "text":"Contact"
+                    }
+                ]
+
+            }
+        },
+        {
+            "file":"agency_template/sections/masthead.html",
+            "content":{
+                "sub_heading":"Welcome To Our Studio!",
+                "heading":"It's Nice To Meet You",
+                "btn":{
+                    "class":"btn btn-primary btn-xl text-uppercase js-scroll-trigger",
+                    "href":"#services",
+                    "text":"Tell Me More"
+                }
+
+            }
+        },
+        {
+            "file":"agency_template/sections/services.html",
+            "content":{
+                "heading":"Services",
+                "sub_heading":"Lorem ipsum dolor sit amet consectetur.",
+                "services":[
+                    {
+                        "bg_icon":"fas fa-circle fa-stack-2x text-primary",
+                        "icon":"fas fa-shopping-cart fa-stack-1x fa-inverse",
+                        "title":"E-Commerce",
+                        "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+                    },
+                    {
+                        "bg_icon":"fas fa-circle fa-stack-2x text-primary",
+                        "icon":"fas fa-laptop fa-stack-1x fa-inverse",
+                        "title":"Responsive Design",
+                        "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+                    },
+                    {
+                        "bg_icon":"fas fa-circle fa-stack-2x text-primary",
+                        "icon":"fas fa-lock fa-stack-1x fa-inverse",
+                        "title":"Web Security",
+                        "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+                    }
+                ]
+
+
+            }
+        },
+        {
+            "file":"agency_template/sections/portfolio_grid.html",
+            "content":{
+                "heading":"Portfolio",
+                "sub_heading":"Lorem ipsum dolor sit amet consectetur.",
+                "items":[
+                    {
+                        "href":"#portfolioModal1",
+                        "i_class":"fas fa-plus fa-3x",
+                        "img_src":"agency_template/assets/img/portfolio/01-thumbnail.jpg",
+                        "img_alt":"",
+                        "heading":"Threads",
+                        "sub_heading":"Illustration"
+                    },
+                    {
+                        "href":"#portfolioModal2",
+                        "i_class":"fas fa-plus fa-3x",
+                        "img_src":"agency_template/assets/img/portfolio/02-thumbnail.jpg",
+                        "img_alt":"",
+                        "heading":"Explore",
+                        "sub_heading":"Graphic Design"
+                    },
+                    {
+                        "href":"#portfolioModal3",
+                        "i_class":"fas fa-plus fa-3x",
+                        "img_src":"agency_template/assets/img/portfolio/03-thumbnail.jpg",
+                        "img_alt":"",
+                        "heading":"Finish",
+                        "sub_heading":"Identity"
+                    },
+                    {
+                        "href":"#portfolioModal4",
+                        "i_class":"fas fa-plus fa-3x",
+                        "img_src":"agency_template/assets/img/portfolio/04-thumbnail.jpg",
+                        "img_alt":"",
+                        "heading":"Lines",
+                        "sub_heading":"Branding"
+                    },
+                    {
+                        "href":"#portfolioModal5",
+                        "i_class":"fas fa-plus fa-3x",
+                        "img_src":"agency_template/assets/img/portfolio/05-thumbnail.jpg",
+                        "img_alt":"",
+                        "heading":"Southwest",
+                        "sub_heading":"Website Design"
+                    },
+                    {
+                        "href":"#portfolioModal6",
+                        "i_class":"fas fa-plus fa-3x",
+                        "img_src":"agency_template/assets/img/portfolio/06-thumbnail.jpg",
+                        "img_alt":"",
+                        "heading":"Window",
+                        "sub_heading":"Photography"
+                    }
+                ]
+
+            }
+        },
+        {
+            "file":"agency_template/sections/about.html",
+            "content":{
+                "heading":"About",
+                "sub_heading":"Lorem ipsum dolor sit amet consectetur.",
+                "items":[
+                    {
+                        "img_src":"agency_template/assets/img/about/1.jpg",
+                        "img_alt":"",
+                        "heading":"2009-2011",
+                        "sub_heading":"Our Humble Beginnings",
+                        "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+                    },
+                    {
+                        "inverted":"timeline-inverted",
+                        "img_src":"agency_template/assets/img/about/2.jpg",
+                        "img_alt":"",
+                        "heading":"March 2011",
+                        "sub_heading":"An Agency is Born",
+                        "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+                    },
+                    
+                    {
+                        "img_src":"agency_template/assets/img/about/3.jpg",
+                        "img_alt":"",
+                        "heading":"December 2012",
+                        "sub_heading":"Transition to Full Service",
+                        "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+                    },
+                    
+                    {
+                        "inverted":"timeline-inverted",
+                        "img_src":"agency_template/assets/img/about/4.jpg",
+                        "img_alt":"",
+                        "heading":"July 2014",
+                        "sub_heading":"Phase Two Expansion",
+                        "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+                    }
+                ],
+                "end_circle":{
+                    "first_line":"Be Part",
+                    "second_line":"Of Our",
+                    "third_line":"Story!"
+                }
+            }
+        },
+        {
+            "file":"agency_template/sections/team.html",
+            "content":{
+
+            }
+        },
+        {
+            "file":"agency_template/sections/clients.html",
+            "content":{
+
+            }
+        },
+        {
+            "file":"agency_template/sections/contact.html",
+            "content":{
+
+            }
+        },
+        {
+            "file":"agency_template/sections/footer.html",
+            "content":{
+
+            }
+        },
+        {
+            "file":"agency_template/sections/portfolio_modals.html",
+            "content":{
+
+            }
+        },
+        {
+            "file":"agency_template/sections/navbar.html",
+            "content":{
+
+            }
+        }
+        
+    ]
+}
+
+
+

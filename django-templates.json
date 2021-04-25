@@ -5,6 +5,6 @@
     "pages": [
       {
         "name": "Home page",
-        "contexts": ["base.json", "context.json"],
-        "template": "agency/index.html"
-      },
+        "contexts": ["context.json"],
+        "template": "agency_template/index.html"
+      }

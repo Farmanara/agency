@@ -1,0 +1,6 @@
+make each section's context
+navbar >> done
+masthead >> done
+services >> done
+portfolio grid >> done
+about >> 
