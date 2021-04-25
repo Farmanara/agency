@@ -10,7 +10,7 @@
             "content":{
                 "logo":{
                     "href":"#page-top",
-                    "img_src":"assets/img/navbar-logo.svg",
+                    "img_src":"agency_template/assets/img/navbar-logo.svg",
                     "img_alt":""
                 },
                 "menu":{
