@@ -6,7 +6,7 @@
                 <div class="row">
                 {%for item in section.content.clients%}
                     <div class="col-md-3 col-sm-6 my-3">
-                        <a href="#!"><img class="img-fluid d-block mx-auto" src="{%static item.img_src" alt="" /></a>
+                        <a href="#!"><img class="img-fluid d-block mx-auto" src="{%static item.img_src%}" alt="{{item.alt}}" /></a>
                     </div>
                     {%endfor%}
               
