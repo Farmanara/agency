@@ -84,7 +84,7 @@
                 "sub_heading": "Lorem ipsum dolor sit amet consectetur.",
                 "items": [
                     {
-                        "div_class":"col-lg-4 col-sm-6 mb-4",
+                        "div_class": "col-lg-4 col-sm-6 mb-4",
                         "href": "#portfolioModal1",
                         "i_class": "fas fa-plus fa-3x",
                         "img_src": "agency_template/assets/img/portfolio/01-thumbnail.jpg",
@@ -93,7 +93,7 @@
                         "sub_heading": "Illustration"
                     },
                     {
-                        "div_class":"col-lg-4 col-sm-6 mb-4",
+                        "div_class": "col-lg-4 col-sm-6 mb-4",
                         "href": "#portfolioModal2",
                         "i_class": "fas fa-plus fa-3x",
                         "img_src": "agency_template/assets/img/portfolio/02-thumbnail.jpg",
@@ -102,7 +102,7 @@
                         "sub_heading": "Graphic Design"
                     },
                     {
-                        "div_class":"col-lg-4 col-sm-6 mb-4",
+                        "div_class": "col-lg-4 col-sm-6 mb-4",
                         "href": "#portfolioModal3",
                         "i_class": "fas fa-plus fa-3x",
                         "img_src": "agency_template/assets/img/portfolio/03-thumbnail.jpg",
@@ -111,7 +111,7 @@
                         "sub_heading": "Identity"
                     },
                     {
-                        "div_class":"col-lg-4 col-sm-6 mb-4 mb-lg-0",
+                        "div_class": "col-lg-4 col-sm-6 mb-4 mb-lg-0",
                         "href": "#portfolioModal4",
                         "i_class": "fas fa-plus fa-3x",
                         "img_src": "agency_template/assets/img/portfolio/04-thumbnail.jpg",
@@ -120,7 +120,7 @@
                         "sub_heading": "Branding"
                     },
                     {
-                        "div_class":"col-lg-4 col-sm-6 mb-4 mb-sm-0",
+                        "div_class": "col-lg-4 col-sm-6 mb-4 mb-sm-0",
                         "href": "#portfolioModal5",
                         "i_class": "fas fa-plus fa-3x",
                         "img_src": "agency_template/assets/img/portfolio/05-thumbnail.jpg",
@@ -129,7 +129,7 @@
                         "sub_heading": "Website Design"
                     },
                     {
-                        "div_class":"col-lg-4 col-sm-6",
+                        "div_class": "col-lg-4 col-sm-6",
                         "href": "#portfolioModal6",
                         "i_class": "fas fa-plus fa-3x",
                         "img_src": "agency_template/assets/img/portfolio/06-thumbnail.jpg",
@@ -251,112 +251,218 @@
                         ]
                     }
                 ],
-                "bottom_caption":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde."
+                "bottom_caption": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde."
             }
         },
         {
             "file": "agency_template/sections/clients.html",
             "content": {
-                "clients":[
+                "clients": [
                     {
-                        "img_src":"agency_template/assets/img/logos/envato.jpg",
-                        "alt":""
+                        "img_src": "agency_template/assets/img/logos/envato.jpg",
+                        "alt": ""
                     },
                     {
-                        "img_src":"agency_template/assets/img/logos/designmodo.jpg",
-                        "alt":""
+                        "img_src": "agency_template/assets/img/logos/designmodo.jpg",
+                        "alt": ""
                     },
                     {
-                        "img_src":"agency_template/assets/img/logos/themeforest.jpg",
-                        "alt":""
+                        "img_src": "agency_template/assets/img/logos/themeforest.jpg",
+                        "alt": ""
                     },
                     {
-                        "img_src":"agency_template/assets/img/logos/creative-market.jpg",
-                        "alt":""
+                        "img_src": "agency_template/assets/img/logos/creative-market.jpg",
+                        "alt": ""
                     }
-
                 ]
             }
         },
         {
             "file": "agency_template/sections/contacts.html",
             "content": {
-                "heading":"Contact Us",
-                "sub_heading":"Lorem ipsum dolor sit amet consectetur.",
-                "form":{
-                    "info":[
+                "heading": "Contact Us",
+                "sub_heading": "Lorem ipsum dolor sit amet consectetur.",
+                "form": {
+                    "info": [
                         {
-                            "div_class":"form-group",
-                            "id":"name",
-                            "type":"text",
-                            "placeholder":"Your Name *",
-                            "required":"required",
-                            "validation_msg":"Please enter your name."
+                            "div_class": "form-group",
+                            "id": "name",
+                            "type": "text",
+                            "placeholder": "Your Name *",
+                            "required": "required",
+                            "validation_msg": "Please enter your name."
                         },
                         {
-                            "div_class":"form-group",
-                            "id":"email",
-                            "type":"email",
-                            "placeholder":"Your Email *",
-                            "required":"required",
-                            "validation_msg":"Please enter your email address."
+                            "div_class": "form-group",
+                            "id": "email",
+                            "type": "email",
+                            "placeholder": "Your Email *",
+                            "required": "required",
+                            "validation_msg": "Please enter your email address."
                         },
                         {
-                            "div_class":"form-group mb-md-0",
-                            "id":"phone",
-                            "type":"tel",
-                            "placeholder":"Your Phone *",
-                            "required":"required",
-                            "validation_msg":"Please enter your phone number."
+                            "div_class": "form-group mb-md-0",
+                            "id": "phone",
+                            "type": "tel",
+                            "placeholder": "Your Phone *",
+                            "required": "required",
+                            "validation_msg": "Please enter your phone number."
                         }
-                        
                     ],
-                    "message":{
-                        "placeholder":"Your Message *",
-                        "required":"required",
-                        "validation_msg":""
+                    "message": {
+                        "placeholder": "Your Message *",
+                        "required": "required",
+                        "validation_msg": ""
                     },
-                    "button":{
-                        "class":"btn btn-primary btn-xl text-uppercase",
-                        "type":"submit",
-                        "text":"Send Message"
+                    "button": {
+                        "class": "btn btn-primary btn-xl text-uppercase",
+                        "type": "submit",
+                        "text": "Send Message"
                     }
                 }
-
             }
         },
         {
             "file": "agency_template/sections/footer.html",
             "content": {
-                "copyright":"Copyright © Your Website 2020",
-                "socials":[
+                "copyright": "Copyright © Your Website 2020",
+                "socials": [
                     {
-                        "href":"#!",
-                        "i_class":"fab fa-twitter"
+                        "href": "#!",
+                        "i_class": "fab fa-twitter"
                     },
                     {
-                        "href":"#!",
-                        "i_class":"fab fa-facebook-f"
+                        "href": "#!",
+                        "i_class": "fab fa-facebook-f"
                     },
                     {
-                        "href":"#!",
-                        "i_class":"fab fa-linkedin-in"
+                        "href": "#!",
+                        "i_class": "fab fa-linkedin-in"
                     }
                 ],
-                "policy":{
-                    "href":"#!",
-                    "text":"Privacy Policy"
+                "policy": {
+                    "href": "#!",
+                    "text": "Privacy Policy"
                 },
-                "terms":{
-                    "href":"#!",
-                    "text":"Terms of Use"
+                "terms": {
+                    "href": "#!",
+                    "text": "Terms of Use"
                 }
             }
         },
         {
             "file": "agency_template/sections/portfolio_modals.html",
-            "content": {}
+            "content": {
+                "modals": [
+                    {   "close_icon":"agency_template/assets/img/close-icon.svg",
+                        "close_icon_alt":"Close modal",
+                        "id": "portfolioModal1",
+                        "heading": "Project Name",
+                        "sub_heading": "Lorem ipsum dolor sit amet consectetur.",
+                        "img_src": "agency_template/assets/img/portfolio/01-full.jpg",
+                        "img_alt": "",
+                        "description": "Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!",
+                        "list": [
+                            "Date: January 2020",
+                            "Client: Threads",
+                            "Category: Illustration"
+                        ],
+                        "btn_class": "btn btn-primary",
+                        "btn_i_class": "fas fa-times mr-1",
+                        "btn_text": "Close Project"
+                    },
+                    {
+                        "close_icon":"agency_template/assets/img/close-icon.svg",
+                        "close_icon_alt":"Close modal",
+                        "id": "portfolioModal2",
+                        "heading": "Project Name",
+                        "sub_heading": "Lorem ipsum dolor sit amet consectetur.",
+                        "img_src": "agency_template/assets/img/portfolio/02-full.jpg",
+                        "img_alt": "",
+                        "description": "Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!",
+                        "list": [
+                            "Date: January 2020",
+                            "Client: Explore",
+                            "Category: Graphic Design"
+                        ],
+                        "btn_class": "btn btn-primary",
+                        "btn_i_class": "fas fa-times mr-1",
+                        "btn_text": "Close Project"
+                    },
+                    {
+                        "close_icon":"agency_template/assets/img/close-icon.svg",
+                        "close_icon_alt":"Close modal",
+                        "id": "portfolioModal3",
+                        "heading": "Project Name",
+                        "sub_heading": "Lorem ipsum dolor sit amet consectetur.",
+                        "img_src": "agency_template/assets/img/portfolio/03-full.jpg",
+                        "img_alt": "",
+                        "description": "Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!",
+                        "list": [
+                            "Date: January 2020",
+                            "Client: Finish",
+                            "Category: Identity"
+                        ],
+                        "btn_class": "btn btn-primary",
+                        "btn_i_class": "fas fa-times mr-1",
+                        "btn_text": "Close Project"
+                    },
+                    {
+                        "close_icon":"agency_template/assets/img/close-icon.svg",
+                        "close_icon_alt":"Close modal",
+                        "id": "portfolioModal4",
+                        "heading": "Project Name",
+                        "sub_heading": "Lorem ipsum dolor sit amet consectetur.",
+                        "img_src": "agency_template/assets/img/portfolio/04-full.jpg",
+                        "img_alt": "",
+                        "description": "Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!",
+                        "list": [
+                            "Date: January 2020",
+                            "Client: Lines",
+                            "Category: Branding"
+                        ],
+                        "btn_class": "btn btn-primary",
+                        "btn_i_class": "fas fa-times mr-1",
+                        "btn_text": "Close Project"
+                    },
+                    {
+                        "close_icon":"agency_template/assets/img/close-icon.svg",
+                        "close_icon_alt":"Close modal",
+                        "id": "portfolioModal5",
+                        "heading": "Project Name",
+                        "sub_heading": "Lorem ipsum dolor sit amet consectetur.",
+                        "img_src": "agency_template/assets/img/portfolio/05-full.jpg",
+                        "img_alt": "",
+                        "description": "Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!",
+                        "list": [
+                            "Date: January 2020",
+                            "Client: Southwest",
+                            "Category: Website Design"
+                        ],
+                        "btn_class": "btn btn-primary",
+                        "btn_i_class": "fas fa-times mr-1",
+                        "btn_text": "Close Project"
+                    },
+                    {
+                        "close_icon":"agency_template/assets/img/close-icon.svg",
+                        "close_icon_alt":"Close modal",
+                        "id": "portfolioModal6",
+                        "heading": "Project Name",
+                        "sub_heading": "Lorem ipsum dolor sit amet consectetur.",
+                        "img_src": "agency_template/assets/img/portfolio/06-full.jpg",
+                        "img_alt": "",
+                        "description": "Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!",
+                        "list": [
+                            "Date: January 2020",
+                            "Client: Window",
+                            "Category: Photography"
+                        ],
+                        "btn_class": "btn btn-primary",
+                        "btn_i_class": "fas fa-times mr-1",
+                        "btn_text": "Close Project"
+                    }
+                ]
+            }
         }
-      
     ]
 }
