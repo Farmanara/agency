@@ -9,7 +9,7 @@
                 </div>
                 <ul class="timeline">
                     {%for item in section.content.items%}
-                    <li {%if item.inverted%} class="{%if item.inverted%} {{inverted}} {%endif%}" >
+                    <li  class="{%if item.inverted%} {{inverted}} {%endif%}" >
                         <div class="timeline-image"><img class="rounded-circle img-fluid" src="{%static item.img_src%}" alt="{{item.img_alt}}" /></div>
                         <div class="timeline-panel">
                             <div class="timeline-heading">
