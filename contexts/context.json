@@ -8,11 +8,11 @@
         {
             "file":"agency_template/sections/navbar.html",
             "content":{
-                "logo":{
+            
                     "href":"#page-top",
                     "img_src":"agency_template/assets/img/navbar-logo.svg",
                     "img_alt":""
-                },
+                ,
                 "menu":{
                     "text":"Menu",
                     "i_class":"fas fa-bars ml-1"
