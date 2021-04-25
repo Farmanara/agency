@@ -7,4 +7,5 @@
         "name": "Home page",
         "contexts": ["context.json"],
         "template": "agency_template/index.html"
-      }
+      }]
+    }
