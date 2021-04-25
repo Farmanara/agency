@@ -9,7 +9,7 @@
                 </div>
                 <div class="row">
                     {%for item in section.content.items%}
-                    <div class="col-lg-4 col-sm-6 mb-4">
+                    <div class="{{item.div_class}}">
                         <div class="portfolio-item">
                             <a class="portfolio-link" data-toggle="modal" href="{{item.href}}">
                                 <div class="portfolio-hover">
@@ -24,8 +24,6 @@
                         </div>
                     </div>
                     {%endfor%}
-
-                   
                 </div>
             </div>
         </section>
