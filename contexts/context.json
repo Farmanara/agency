@@ -8,7 +8,6 @@
         {
             "file":"agency_template/sections/navbar.html",
             "content":{
-            
                     "href":"#page-top",
                     "img_src":"agency_template/assets/img/navbar-logo.svg",
                     "img_alt":""
