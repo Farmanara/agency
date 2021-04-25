@@ -4,13 +4,13 @@
         <section class="page-section" id="contact">
             <div class="container">
                 <div class="text-center">
-                    <h2 class="section-heading text-uppercase">{{section.heading}}</h2>
-                    <h3 class="section-subheading text-muted">{{section.sub_heading}}</h3>
+                    <h2 class="section-heading text-uppercase">{{section.content.heading}}</h2>
+                    <h3 class="section-subheading text-muted">{{section.content.sub_heading}}</h3>
                 </div>
                 <form id="contactForm" name="sentMessage" novalidate="novalidate">
                     <div class="row align-items-stretch mb-5">
                         <div class="col-md-6">
-                            {%for item in section.form.info%}
+                            {%for item in section.content.form.info%}
                             <div class="{{item.div_class}}">
                                 <input class="form-control" id="name" type="{{item.type}}" placeholder="{{item.placeholder}}" required="{{item.required}}" data-validation-required-message="{{item.validation_msg}}" />
                                 <p class="help-block text-danger"></p>
@@ -22,14 +22,14 @@
 
                         <div class="col-md-6">
                             <div class="form-group form-group-textarea mb-md-0">
-                                <textarea class="form-control" id="message" placeholder="{{section.form.message.placeholder}}" required="{{section.form.message.required}}" data-validation-required-message="{{section.form.message.validation_msg}}"></textarea>
+                                <textarea class="form-control" id="message" placeholder="{{section.content.form.message.placeholder}}" required="{{section.content.form.message.required}}" data-validation-required-message="{{section.content.form.message.validation_msg}}"></textarea>
                                 <p class="help-block text-danger"></p>
                             </div>
                         </div>
                     </div>
                     <div class="text-center">
                         <div id="success"></div>
-                        <button class="{{section.button.class}}" id="sendMessageButton" type="{{section.button.type}}">{{section.button.text}}</button>
+                        <button class="{{section.content.form.button.class}}" id="sendMessageButton" type="{{section.content.form.button.type}}">{{section.content.form.button.text}}</button>
                     </div>
                 </form>
             </div>
