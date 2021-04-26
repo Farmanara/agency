@@ -1,7 +1,11 @@
 {
     "head": {
         "title": "Agency - Start Bootstrap Theme",
-        "favicon": "agency_template/assets/img/favicon.ico"
+        "favicon": "agency_template/assets/img/favicon.ico",
+        "meta":{
+            "description":"",
+            "author":""
+        }
     },
     "sections": [
         {
